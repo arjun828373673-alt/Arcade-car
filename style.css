@@ -5,11 +5,16 @@
   --accent-gold: #C5A059;
   --accent-gold-hover: #E5C17A;
   --accent-glow: rgba(197, 160, 89, 0.15);
+  --text-primary: #FFFFFF;
+  --text-secondary: #B3B3B3;
+  --text-dark: #121212;
+  --border-color: #333333;
+  --success: #2E7D32;
 }
 .btn {
     background-color: var(--accent-gold);
-    color: white;
-    border: 2px solid #1A1A1A;
+    color: var(--text-primary);
+    border: 2px solid var(--border-color);
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
