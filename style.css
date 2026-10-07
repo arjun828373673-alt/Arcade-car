@@ -24,3 +24,11 @@
     margin: 4px 2px;
     cursor: pointer;
 }
+.hero-section {
+    background-color: var(--bg-surface);
+    color: var(--text-primary);
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+}
