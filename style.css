@@ -61,4 +61,5 @@
   color: var(--text-secondary);
   font-family: 'inter', sans-serif;
   margin: 0;
+  overflow-x: hidden;
 }
