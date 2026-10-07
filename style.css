@@ -4,6 +4,7 @@
   --bg-surface-hover: #2A2A2A;
   --accent-gold: #C5A059;
   --accent-gold-hover: #E5C17A;
+  --accent-glow: rgba(197, 160, 89, 0.15);
 }
 .btn {
     background-color: var(--accent-gold);
