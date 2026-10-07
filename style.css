@@ -54,3 +54,9 @@
   display: flex;
   align-items: center;
 }
+.hero {
+ background-color: var(--bg-primary);
+  color: var(--text-secondary);
+  font-family: 'inter', sans-serif;
+  margin: 0;
+}
