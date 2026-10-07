@@ -55,7 +55,7 @@
   align-items: center;
   border:none; 
 }
-.hero {
+.body {
  background-color: var(--bg-primary);
   color: var(--text-secondary);
   font-family: 'inter', sans-serif;
