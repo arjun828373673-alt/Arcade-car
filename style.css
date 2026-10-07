@@ -51,4 +51,5 @@
   padding: 10px;
   height: 200px;
   width: 100%;
+  display: inline-flex;
 }
