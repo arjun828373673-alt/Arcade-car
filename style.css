@@ -1,9 +1,12 @@
-.hero {
-background: #1A1A1A;
-color: #E65F2B;
+:root {
+  --bg-primary: #121212;      
+  --bg-surface: #1E1E1E;   
+  --bg-surface-hover: #2A2A2A;
+  --accent-gold: #C5A059;
+  --accent-gold-hover: #E5C17A;
 }
 .btn {
-    background-color: #D4AF37;
+    background-color: var(--accent-gold);
     color: white;
     border: 2px solid #1A1A1A;
     padding: 10px 20px;
