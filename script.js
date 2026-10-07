@@ -14,3 +14,4 @@ function rotateHeroImage() {
         heroImageElement.src = heroImages[currentIndex];
     }, 3000);
 }
+document.getElementById("explore-button").addEventListener("click", () => showView('hero-section'));
