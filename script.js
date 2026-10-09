@@ -15,3 +15,7 @@ document.getElementById("wrangler-btn").innerHTML = "Thanks for buying Jeep Wran
 }
 function showMessage() {
 document.getElementById("AMG6x6-btn").innerHTML = "Thanks for buying Jeep Compass from Arcade car";
+}
+function showMessage() {
+document.getElementById("grand-btn").innerHTML = "Thanks for buying Jeep Grand Cherokee from Arcade car";
+}
