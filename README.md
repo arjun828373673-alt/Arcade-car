@@ -1,7 +1,8 @@
 # Arcade-car
 it is a 3D car website in which you can see details about any car
 # how to use
-when you click buy I show this message "thanks for buying car from arcade car "
+when you click buy I show this message "Bought!"
+and than you can see your cars in order section
 # how I made this 
 I made this website using-
 HTML5 - for creating structure of website
