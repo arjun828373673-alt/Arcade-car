@@ -1,3 +1,17 @@
+document.addEventListener("DOMContentLoaded", displayOrders);
+
+function saveOrder(carName, carPrice) {
+    let orders = JSON.parse(localStorage.getItem("arcadeOrders")) || [];
+    let newOrder = {
+        name: carName,
+        price: carPrice,
+        time: new Date().toLocaleTimeString()
+    };
+    orders.push(newOrder);
+    localStorage.setItem("arcadeOrders", JSON.stringify(orders));
+    displayOrders();
+}
+
 function showRangeMessage() {
 document.getElementById("range-btn").innerHTML = "Thanks for buying range rover from Arcade car";
 }
